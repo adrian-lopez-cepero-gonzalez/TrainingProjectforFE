@@ -1,0 +1,6 @@
+{
+  "apps/**/*.+(js|json|ts|tsx|html)": ["eslint"],
+  "apps/**/*.{js,jsx,ts,tsx,json,css,scss,md,html}": ["prettier --write"],
+  "libs/**/*.+(js|json|ts|tsx|html)": ["eslint"],
+  "libs/**/*.{js,jsx,ts,tsx,json,css,scss,md,html}": ["prettier --write"]
+}
