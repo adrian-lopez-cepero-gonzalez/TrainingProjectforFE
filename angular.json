@@ -122,6 +122,32 @@
       },
       "tags": [],
       "implicitDependencies": ["training-project"]
+    },
+    "training-project-feature-repository": {
+      "projectType": "library",
+      "root": "libs/training-project/feature-repository",
+      "sourceRoot": "libs/training-project/feature-repository/src",
+      "prefix": "cognizant",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/training-project/feature-repository"],
+          "options": {
+            "jestConfig": "libs/training-project/feature-repository/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/training-project/feature-repository/src/**/*.ts",
+              "libs/training-project/feature-repository/src/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": ["scope:training-project", "type:feature"]
     }
   }
 }

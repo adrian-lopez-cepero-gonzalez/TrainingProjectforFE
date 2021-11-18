@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cognizant/training-project/feature-repository": [
+        "libs/training-project/feature-repository/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
