@@ -30,11 +30,6 @@
       }
     ]
   },
-  "projects": {
-    "admin": {
-      "tags": ["scope:training-project", "type:app"]
-    }
-  },
   "generators": {
     "@nrwl/angular:application": {
       "style": "scss",

@@ -93,7 +93,7 @@
           }
         }
       },
-      "tags": []
+      "tags": ["scope:training-project", "type:app"]
     },
     "training-project-e2e": {
       "root": "apps/training-project-e2e",
